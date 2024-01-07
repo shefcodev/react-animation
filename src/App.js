@@ -51,6 +51,7 @@ class App extends Component {
                 width: 100,
                 height: 100,
                 margin: '1rem auto',
+                borderRadius: '1rem',
                 transition: 'opacity 1s ease-out',
                 opacity:
                   state === 'exiting' || state === 'exited'
