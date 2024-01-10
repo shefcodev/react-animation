@@ -21,7 +21,7 @@ class List extends Component {
     this.setState((prevState) => {
       return {
         items: prevState.items.filter((item, index) => index !== selIndex),
-      };
+      }; 
     });
   };
 
